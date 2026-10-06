@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+
+# Playwright browser binaries (installed outside the project by "playwright install",
+# listed here only as a safety net)
+ms-playwright/
+
+# Generated screenshots (the folders are kept, the images are not committed)
+screenshots/before/*
+screenshots/after/*
+!screenshots/before/.gitkeep
+!screenshots/after/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
